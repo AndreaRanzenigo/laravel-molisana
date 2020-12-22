@@ -13,14 +13,29 @@ body {
   margin: 0 auto;
 }
 
-.cards {
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.type-card h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: blue;
+}
+.type-card .cards {
   display: flex;
   flex-wrap: wrap;
 }
-.cards .card {
+.type-card .cards .card {
   flex-basis: calc(100% / 3 - 10px);
   margin-right: 10px;
 }
-.cards .card img {
+.type-card .cards .card img {
   width: 100%;
+}
+.type-card .cards .card h3 {
+  margin: 20px 0;
 }

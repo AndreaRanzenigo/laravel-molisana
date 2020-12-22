@@ -1,15 +1,22 @@
 //Cards
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    .card {
-        flex-basis: calc(100% / 3 - 10px);
-        margin-right: 10px;
-        img {
-            width: 100%;
-        }
-        h3{
-
+.type-card {
+    h2 {
+        margin-top: 50px;
+        margin-bottom: 10px;
+        color: $color-title;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        .card {
+            flex-basis: calc(100% / 3 - 10px);
+            margin-right: 10px;
+            img {
+                width: 100%;
+            }
+            h3 {
+                margin: 20px 0;
+            }
         }
     }
 }
