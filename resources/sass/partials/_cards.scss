@@ -1,0 +1,15 @@
+//Cards
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+        flex-basis: calc(100% / 3 - 10px);
+        margin-right: 10px;
+        img {
+            width: 100%;
+        }
+        h3{
+
+        }
+    }
+}
